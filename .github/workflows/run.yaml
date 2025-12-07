@@ -2,7 +2,7 @@ name: number go brr
 
 on:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '33 * * * *'
   workflow_dispatch:
 
 jobs:
