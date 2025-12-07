@@ -21,10 +21,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests
         
-      - name: Run data fetching script
-        run: python data_poller.py
+      - name: Run script
+        run: python scraper.py
         
-      - name: Commit data changes
+      - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "micum moment"
